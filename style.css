@@ -1,3 +1,8 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -24,16 +29,6 @@ h3, p {
     padding: 10px;
 }
 
-* {
-    text-align: center;
-    box-sizing: border-box;
-}
-
-
-
-.pad {
-    padding: 25px;
-}
 
 header {
     padding: 25px;
@@ -45,10 +40,19 @@ nav {
    
 }
 
+.middle {
+    margin: 20px 0px 20px 0px;
+    height: 100%;
+}
+
 #box {
     width: 495px;
     float: left;
  
+}
+
+.pad {
+    padding: 25px;
 }
 
 section {
@@ -56,19 +60,13 @@ section {
     padding:10px;
 }
 
-
-
 aside {
     float: left;
     margin-left: 20px;
     height: 298px;
-    /* width: 425px; */
+    width: 425px;
     padding: 35px;
     overflow: hidden;
-}
-
-.middle {
-    margin: 20px 0px 20px 0px;
 }
 
 footer {
